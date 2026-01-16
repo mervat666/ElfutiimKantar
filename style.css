@@ -1,0 +1,133 @@
+.myForm,
+p {
+    margin-left: auto;
+    margin-right: auto
+}
+
+body {
+    width: 100%;
+    height: 600px;
+    background-image: linear-gradient(120deg, #e0c3fc 0, #8ec5fc 100%);
+    overflow-x: hidden
+}
+
+.alfutmh1 {
+    text-align: center;
+    font-size: 35px;
+    font-weight: 800
+}
+
+p {
+    font-size: 17px;
+    width: 77%
+}
+
+.mySpan {
+    font-size: 20px
+}
+
+.myForm {
+    width: 75%;
+    height: auto;
+    background-color: #d3d3d3db;
+    margin-top: 100px;
+    border-radius: 10px;
+    padding: 5px 30px
+}
+
+.myInput {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px
+}
+
+.myInput input {
+    width: 98%;
+    height: 35px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    padding-left: 10px
+}
+
+.myInput input:focus,
+.myInput input:hover {
+    outline: 0;
+    border-bottom: 2px solid #03787c
+}
+
+.myJob {
+    position: relative
+}
+
+.icon-eraser:hover {
+    color: red
+}
+
+.submit {
+    display: block;
+    flex-flow: row;
+    align-items: center;
+    justify-content: center;
+    border: .0625rem solid transparent;
+   
+    white-space: nowrap;
+    margin: 0;
+    cursor: pointer;
+    text-decoration-line: none;
+    outline-style: none;
+    width: 70%;
+    border-radius: 12px;
+    padding: 0 1.25rem;
+  margin-left: auto;
+  margin-right: auto;
+    min-height: 2.5rem;
+    line-height: 1.375rem;
+    font-weight: 600;
+    font-size: .875rem;
+    color: #fff;
+    background-color: #03787c;
+    align-self: stretch;
+    transition: all 1s ease-in-out;
+}
+
+.submit:hover {
+    background-color: #062d2e;
+    border-radius: 0%;
+}
+
+.myAnimation {
+    display: block;
+    text-align: center;
+    font-size: 39px;
+    animation: 1s linear 1s 3 focus-in-expand-top;
+    text-shadow: 1.5px 1.5px .5px #03787c
+}
+
+@keyframes focus-in-expand-top {
+    0% {
+        letter-spacing: -.5em;
+        filter: blur(12px);
+        opacity: 0;
+        transform: translateY(0);
+        filter: blur(0);
+        opacity: 1
+    }
+}
+
+.myrequired {
+    color: #dc143c;
+    font-size: 16px
+}
+
+@media screen and (min-width: 480px) and (max-width: 1000px){
+.submit{
+    width: 50%;
+    color: #dc143c;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+}
